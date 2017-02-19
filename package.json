@@ -1,0 +1,37 @@
+{
+  "name": "webpack-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesDaniel/webpack-tutorial.git"
+  },
+  "author": "JamesDaniel",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "jshint": "^2.8.0",
+    "jshint-loader": "^0.8.3",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "node-libs-browser": "^0.5.3",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.1",
+    "strip-loader": "^0.1.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.1.0-beta.17"
+  },
+  "bugs": {
+    "url": "https://github.com/JamesDaniel/webpack-tutorial/issues"
+  },
+  "homepage": "https://github.com/JamesDaniel/webpack-tutorial#readme"
+}
